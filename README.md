@@ -79,3 +79,6 @@ next steps:
 3. restyle settings menu
 
 set theming to dracula font size etc
+
+https://stackoverflow.com/questions/15903191/how-to-automatically-pick-a-mode-for-ace-editor-given-a-file-extension
+
