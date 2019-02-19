@@ -76,3 +76,6 @@ next steps:
 
 1. File opener
 2. File saver
+3. restyle settings menu
+
+set theming to dracula font size etc
