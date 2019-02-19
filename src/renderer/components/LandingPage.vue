@@ -2,14 +2,23 @@
   <div id="wrapper">
     <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
     <main>
-      <div class="left-side">
+
+
+      <div id="editor">function foo(items) {
+          var x = "All this is syntax highlighted";
+          return x;
+      }</div>
+          
+      <!-- <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
+    
+      <!-- <div class="left-side">
         <span class="title">
           Welcome to your new project!
         </span>
         <system-information></system-information>
-      </div>
+      </div> -->
 
-      <div class="right-side">
+      <!-- <div class="right-side">
         <div class="doc">
           <div class="title">Getting Started</div>
           <p>
@@ -24,13 +33,18 @@
           <button class="alt" @click="open('https://electron.atom.io/docs/')">Electron</button>
           <button class="alt" @click="open('https://vuejs.org/v2/guide/')">Vue.js</button>
         </div>
-      </div>
+      </div> -->
     </main>
   </div>
 </template>
 
 <script>
   import SystemInformation from './LandingPage/SystemInformation';
+  import ace from '"~@/assets/ace.js"'
+
+  var editor = ace.edit("editor");
+  editor.setTheme("ace/theme/monokai");
+  editor.session.setMode("ace/mode/javascript");
 
   export default {
     name: 'landing-page',
@@ -50,6 +64,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+
+  #editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
   }
 
   body { font-family: 'Source Sans Pro', sans-serif; }
