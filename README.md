@@ -46,6 +46,13 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 
 
+This app also makes use of the wonderful ACE editor from
+cloud 9 to provide 99% of the actual code editing functionality
+
+Scythe image stolen from 
+https://www.deviantart.com/aeronator/art/Rubys-scythe-Colored-363008589
+
+
 Todo:
 1. Add logo
 2. Add below features
@@ -63,3 +70,9 @@ Features to be implemented:
 8. Right click in editor copy commands for moving files to 
 child repos and between child repos.
 9. Right click start terminal here for child repos
+
+
+next steps:
+
+1. File opener
+2. File saver
