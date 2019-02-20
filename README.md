@@ -82,3 +82,12 @@ set theming to dracula font size etc
 
 https://stackoverflow.com/questions/15903191/how-to-automatically-pick-a-mode-for-ace-editor-given-a-file-extension
 
+https://www.abeautifulsite.net/jquery-file-tree
+
+<!-- proxy git commmands -->
+
+<!-- proxy meta commands -->
+
+some sort of extension creation system like vscode
+
+<!-- spell checking with ability to add to dictionary / ignore -->
