@@ -36,6 +36,7 @@
 </div>
   <div id="editor-container"></div>
 
+  <button id="openFile" onclick="openFile();">Open file</button>
 
 
 
@@ -43,9 +44,19 @@
   <script src="src/keybinding-vim.js"></script>
   <script src="src/keybinding-emacs.js"></script>
   <script src="demo/kitchen-sink/demo.js"></script>
+
+
   <script type="text/javascript" charset="utf-8">
     require("kitchen-sink/demo");
+    const {dialog} = require("electron");
+
+    function openFile(){
+      dialog.showOpenDialog(function(filenames){
+
+      });
+    };
   </script>
+
     
 
 </body>
