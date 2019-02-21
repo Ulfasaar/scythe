@@ -5,6 +5,10 @@ const {app, BrowserWindow} = require('electron')
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
 
+
+// need to add a check to make sure that this only happens in dev
+require('electron-reload')(__dirname);
+
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({
