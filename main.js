@@ -6,6 +6,19 @@ const {app, BrowserWindow} = require('electron')
 let mainWindow
 
 
+// ! reinstall node_modules with yarn
+
+
+// read file list
+
+// render in thing
+
+
+// modularize the demo js file
+
+// rearrange code structure
+
+
 // need to add a check to make sure that this only happens in dev
 require('electron-reload')(__dirname);
 
