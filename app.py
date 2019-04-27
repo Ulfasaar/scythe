@@ -18,6 +18,18 @@ def save_file():
     return "saved file", 200
 
 
+@app.route('/get_files', methods=['GET'])
+def get_files():
+    files = seam.get_files()
+    return files
+
+
+@app.route('/read/<file_name>', methods=['GET'])
+def get_file(file_name):
+    text = seam.get_file(file_name)
+    return text
+
+
 if __name__ == "__main__":
 
     if ENV == "dev":
