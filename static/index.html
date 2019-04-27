@@ -37,7 +37,7 @@
   return x;
 }`);
         shortcut.add("Ctrl+S", function(){
-          save_file("test.js", "bakh");
+          save_file("test.js", editor.session.getValue());
         });
 
         var vim_enabled = false;
