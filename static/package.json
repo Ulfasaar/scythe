@@ -1,0 +1,21 @@
+{
+  "name": "scythe",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/Ulfasaar/scythe",
+  "author": "Ulfasaar",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-eslint": "^1.0.7",
+    "parcel-plugin-vue": "^1.5.0"
+  }
+}

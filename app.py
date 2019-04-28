@@ -1,6 +1,6 @@
 from src.libs.config import ENV
 from src import seam
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 
 
 app = Flask(__name__, static_url_path='')
@@ -21,7 +21,7 @@ def save_file():
 @app.route('/get_files', methods=['GET'])
 def get_files():
     files = seam.get_files()
-    return files
+    return jsonify(files)
 
 
 @app.route('/read/<file_name>', methods=['GET'])

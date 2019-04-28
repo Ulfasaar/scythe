@@ -19,6 +19,12 @@
     </div>
     <div id="editor">
     </div>
+
+    <div id="terminal">
+      <iframe>
+        <!-- wetty -->
+      </iframe>
+    </div>
         
     <!-- <script src="/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script> -->
     <script src="src/ace.js" data-ace-base="src" type="text/javascript" charset="utf-8"></script>
@@ -42,6 +48,13 @@
 // }`);
         shortcut.add("Ctrl+S", function(){
           save_file("test.js", editor.session.getValue());
+        });
+
+        shortcut.add("Ctrl+O", function(){
+          get_files(function(files){
+            alert(files);
+          });
+          // display modal asking which file to open
         });
 
         var vim_enabled = false;
