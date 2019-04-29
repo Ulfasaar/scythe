@@ -14,8 +14,6 @@
     "babel-preset-env": "^1.7.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.2",
-    "parcel-bundler": "^1.12.3",
-    "parcel-plugin-eslint": "^1.0.7",
-    "parcel-plugin-vue": "^1.5.0"
+    "parcel-bundler": "^1.12.3"
   }
 }

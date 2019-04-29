@@ -8,3 +8,5 @@
 6. bootstrap/ ionic or something else for reusable components
 7. hotkey info
 8. move front end code to front end folder and have parcel spit out stuff into static folder?
+
+a more up to date tut? https://medium.com/@ibrahimbutt/if-youve-ever-configured-webpack-parcel-will-blow-your-mind-b615468cee78
