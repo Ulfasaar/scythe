@@ -19,3 +19,6 @@ This is being done as a alternative to using Theia as Theia is still under heavy
 
 Theia is not being used as a base as its code is complex and there are other features that I want to build into the file managment system such as support for meta repos that would be more difficult in their complex code base.
 
+It is not enough to simply bundle command line developer tools into a container and use them in interactive mode via SSH as Editors and IDEs tend to plug into said tools to provide niceties and productivity enhancements such as auto complete, type checking, linting, compiling testing debugging etc, and said editors are not smart enough at the moment to proxy through a container to access said tools.
+
+Which leads developers to reinstalling said tools locally outside the container just to make them integrate with their preffered editors which then defeats the point of containerising the tools in the first place, and causes all the problems that were attempted to be solved by containerising said tools.
