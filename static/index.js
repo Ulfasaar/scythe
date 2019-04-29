@@ -1,6 +1,6 @@
 import ace from "ace-builds/src-noconflict/ace";
 import shortcut from "./shortcuts"
-import {get_file, save_file, get_files} from "./libs"
+import {get_file, save_file, get_files} from "./libs_1"
 
 var editor = ace.edit("editor");
 editor.setTheme("ace/theme/tomorrow_night_bright");
