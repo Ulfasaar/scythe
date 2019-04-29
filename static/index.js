@@ -1,10 +1,13 @@
-import ace from "ace-builds/src-noconflict/ace";
+// import ace from "ace-builds/src-noconflict/ace";
+import ace from 'brace';
 import shortcut from "./shortcuts"
 import {get_file, save_file, get_files} from "./libs_1"
+import 'brace/mode/javascript';
+import 'brace/theme/tomorrow_night_bright';
 
 var editor = ace.edit("editor");
-editor.setTheme("ace/theme/tomorrow_night_bright");
-editor.session.setMode("ace/mode/javascript");
+editor.setTheme("brace/theme/tomorrow_night_bright");
+editor.session.setMode("brace/mode/javascript");
 
 get_file('test.js', function(text){
     editor.session.setValue(text);
@@ -24,10 +27,10 @@ shortcut.add("Ctrl+O", function(){
 var vim_enabled = false;
 shortcut.add("Ctrl+Shift+v", function(){
     if(vim_enabled){
-    editor.setKeyboardHandler('ace/keyboard/vim');
+        editor.setKeyboardHandler('brace/keyboard/vim');
     }
     else{
-    editor.setKeyboardHandler(null);
+        editor.setKeyboardHandler(null);
     }
 
     vim_enabled = !vim_enabled;
