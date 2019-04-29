@@ -1,5 +1,8 @@
 // My own libs for saving files etc
 
+import './shortcuts';
+import 'ace-builds/src-noconflict/ace';
+import 'ace-builds/src-noconflict/keybinding-vim';
 
 function save_file(file_name, text){
 
