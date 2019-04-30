@@ -1,4 +1,4 @@
-# scythe_v1
+# scythe
 
 ## Project setup
 ```

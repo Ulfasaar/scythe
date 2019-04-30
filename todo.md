@@ -26,3 +26,6 @@ a proper static serving under the root and the python server running at same tim
 12. setup a dockerfile for bundling this up based on ubuntu
 
 13. nginx amplify for dev, and evaluate unit as well instead of flask?
+
+14. consider using nginx as THE web server instead that also proxies vues web server
+15. https://www.nginx.com/blog/maximizing-python-performance-with-nginx-parti-web-serving-and-caching/

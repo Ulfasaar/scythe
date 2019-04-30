@@ -1,6 +1,6 @@
 {
-  "name": "scythe_v1",
-  "short_name": "scythe_v1",
+  "name": "scythe",
+  "short_name": "scythe",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
