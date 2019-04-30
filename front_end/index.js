@@ -6,8 +6,8 @@ import 'brace/mode/javascript';
 import 'brace/theme/tomorrow_night_bright';
 
 var editor = ace.edit("editor");
-editor.setTheme("brace/theme/tomorrow_night_bright");
-editor.session.setMode("brace/mode/javascript");
+editor.setTheme("ace/theme/tomorrow_night_bright");
+editor.session.setMode("ace/mode/javascript");
 
 get_file('test.js', function(text){
     editor.session.setValue(text);
