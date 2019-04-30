@@ -29,3 +29,6 @@ a proper static serving under the root and the python server running at same tim
 
 14. consider using nginx as THE web server instead that also proxies vues web server
 15. https://www.nginx.com/blog/maximizing-python-performance-with-nginx-parti-web-serving-and-caching/
+
+
+16. make a open file modal and one for when it starts or it starts with empty file???
