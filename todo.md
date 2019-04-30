@@ -17,3 +17,12 @@ a more up to date tut? https://medium.com/@ibrahimbutt/if-youve-ever-configured-
 Or something else?
 
 Should already be in the vue folder
+
+
+
+11. setup nginx proxy so that I can have a vuejs dev server under /dev
+a proper static serving under the root and the python server running at same time
+
+12. setup a dockerfile for bundling this up based on ubuntu
+
+13. nginx amplify for dev, and evaluate unit as well instead of flask?

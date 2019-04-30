@@ -3,7 +3,7 @@ from src import seam
 from flask import Flask, render_template, request, jsonify
 
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__, static_url_path='', static_folder='front_end/dist/')
 
 
 @app.route('/')
