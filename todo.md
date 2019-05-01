@@ -32,3 +32,10 @@ a proper static serving under the root and the python server running at same tim
 
 
 16. make a open file modal and one for when it starts or it starts with empty file???
+
+17. option to bulk create files from template using newline seperated text box
+
+18. Bulk template fill in from textbox like above
+in fact a bulk option for all the things involved with making individual things would be great :)
+
+19. handle creating newlines during multiline inserts
