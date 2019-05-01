@@ -1,7 +1,7 @@
 // import ace from 'ace-builds/src-noconflict/ace';
 import ace from 'brace';
-import shortcut from './shortcuts'
-import { getFile, saveFile, getFiles } from './libs_1'
+import shortcut from './shortcuts';
+import { getFile, saveFile, getFiles } from './libs_1';
 import 'brace/mode/javascript';
 import 'brace/theme/tomorrow_night_bright';
 

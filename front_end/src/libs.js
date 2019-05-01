@@ -35,7 +35,7 @@ function getFiles(callback) {
 }
 
 function getFile(fileName, callback) {
-  get('/read/' + fileName, (body, status) => {
-      callback(body);
+  get(`/read/${fileName}`, (body, status) => {
+    callback(body);
   });
 }

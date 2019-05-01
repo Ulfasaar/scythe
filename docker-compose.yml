@@ -1,0 +1,7 @@
+version: '2'
+services:
+  editor:
+    build: 
+      context: .
+      dockerfile: editor.dockerfile
+    # tty: true
