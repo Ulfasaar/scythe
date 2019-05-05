@@ -4,4 +4,6 @@ services:
     build: 
       context: .
       dockerfile: editor.dockerfile
+    ports:
+      - "4100:4200"
     # tty: true

@@ -39,3 +39,6 @@ a proper static serving under the root and the python server running at same tim
 in fact a bulk option for all the things involved with making individual things would be great :)
 
 19. handle creating newlines during multiline inserts
+
+
+20. use native file picker for now and then build custom later with icons etc?

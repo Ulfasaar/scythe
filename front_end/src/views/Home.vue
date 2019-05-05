@@ -3,6 +3,9 @@
     <!--     <img alt="Scythe logo" src="../assets/scythe.jpeg"> -->
     <!-- <Editor msg="Welcome to Your Vue.js + TypeScript App"/> -->
     <img alt="Vue logo" src="../assets/logo.png">
+    <button>Show modal</button>
+
+    <!-- breAKS rendering for some  reason... -->
   </div>
 </template>
 
